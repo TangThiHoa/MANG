@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=[6,8,7,9,3,33,68,86,79,97];
+    let max=a[0];
+    let c=0
+    let trungbinh
+    for(let j=0;j<a.length;j++){
+        let trungbinh = trungbinh+a[j]
+
+        if (a[j]>max){
+            max=a[j];
+        }
+    }
+    trungbinh=c/a.length;
+    document.write("max = " + max +"<br>");
+    document.write("Trungbinh = " + trungbinh);
+
+</script>
+</body>
+</html>
